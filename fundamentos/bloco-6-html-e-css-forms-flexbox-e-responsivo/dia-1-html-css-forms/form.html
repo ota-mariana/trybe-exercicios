@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrybeTrip</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulário para concurso TrybeTrip</h1>
+    </header>
+    <label for="nome-completo">Nome completo:
+        <input type="text" name="nome" id="nome-completo" placeholder="Insira seu nome completo" minlength="10"
+            maxlength="40" required>
+    </label>
+    <br>
+    <label for="input-email">E-mail:
+        <input type="email" name="email" id="input-email" placeholder="Insira seu melhor e-mail" minlength="10"
+            maxlength="50" required>
+    </label>
+
+    <p>Escolha um local de destino:</p>
+    <label for="destino-1">
+        <input type="radio" name="destinos-preferido" id="destino-1" value="cidade">Cidade
+    </label>
+    <label for="destino-2">
+        <input type="radio" name="destinos-preferido" id="destino-2" value="campo">Campo
+    </label>
+    <label for="destino-3">
+        <input type="radio" name="destinos-preferido" id="destino-3" value="praia">Praia
+    </label>
+    <label for="destino-4">
+        <input type="radio" name="destinos-preferido" id="destino-4" value="montanhas">Montanhas
+    </label>
+
+    <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+    <textarea name="resposta-justificativa" id="textArea-1" cols="30" rows="10" maxlength="500" required></textarea>
+
+    <p>Qual a melhor data para realizar sua viagem?</p>
+    <label for="boxData-viagem">Data:
+        <input type="text" name="data" id="boxData-viagem" placeholder="dd/mm/aaaa" maxlength="10">
+    </label>
+    <br>
+    <br>
+    <label for="checkbox-ofertas">
+        <input type="checkbox" name="ofertas" id="checkbox-ofertas">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+    </label>
+    <br>
+    <label for="checkbox-acordo">
+        <input type="checkbox" name="acordo" id="checkbox-acordo">Concordo que as imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+    </label>
+</body>
+
+</html>
