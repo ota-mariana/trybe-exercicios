@@ -1,9 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Pokemon from "./components/Pokemon";
+import React from 'react';
+import Pokedex from './components/Pokedex';
+import Pokemon from './components/Pokemon';
 
 function App() {
   return (
+    
+    <Pokedex />
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
